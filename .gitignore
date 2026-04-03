@@ -1,0 +1,19 @@
+# Coisas do Python que não devem subir
+# Pasta oculta de cache do Python
+__pycache__/
+
+# .pyc, .pyo, .pyd
+*.py[cod]
+
+# PYTHON que é Java + Python
+*$py.class 
+
+# Visual Studio Code
+.vscode/
+
+# Coisas do Visual Studio que não devem subir (Caso tenha projetos de C#)
+.vs/
+[Bb]in/
+[Oo]bj/
+*.sln
+*.csproj
